@@ -27,3 +27,10 @@ void play();
 void drawMenu ( int selected , int defCol , int selCol ) ;
 void start(int i);
 int main_menu();
+
+void level_page();
+void level_draw(int lx,int ly);
+
+
+
+int level=1;
