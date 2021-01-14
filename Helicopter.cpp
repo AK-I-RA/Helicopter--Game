@@ -21,3 +21,9 @@ void chk_pipe();
 void heli_dam();
 void bk_m(int level);
 void dance_pipe(int px,int py);
+
+void main();
+void play();
+void drawMenu ( int selected , int defCol , int selCol ) ;
+void start(int i);
+int main_menu();
