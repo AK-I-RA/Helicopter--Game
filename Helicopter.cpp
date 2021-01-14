@@ -34,3 +34,6 @@ void level_draw(int lx,int ly);
 
 
 int level=1;
+
+void d_score(long sc)
+{
