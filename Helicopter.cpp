@@ -37,3 +37,17 @@ int level=1;
 
 void d_score(long sc)
 {
+
+	 setfillstyle(SOLID_FILL,BLACK);
+	 bar(0,getmaxy()-50,getmaxx(),getmaxy());
+
+	 setcolor(15);
+	 settextstyle(2,0,5);
+	 outtextxy(400,getmaxy()-40," SCORE :");
+	 char s[10];
+	 sprintf(s,"%ld",sc);
+	 setfillstyle(SOLID_FILL,0);
+	 outtextxy(500,getmaxy()-40,s);
+
+	 setcolor(BLACK);
+}
