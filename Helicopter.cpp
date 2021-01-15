@@ -87,3 +87,17 @@ sector(left,top,90,270,radx,rady);
 bar(left-65,top+3,left-62,top+8);
 
 setcolor(BLACK);
+
+}
+void rem_heli()
+{
+setcolor(BLACK);
+setfillstyle(SOLID_FILL,BLACK);
+fillellipse(left,top-rady,radx+10,rady-5);
+fillellipse(left-63,top-9,10,4);
+fillellipse(left,top,radx,rady);
+bar(left,top-3,left-65,top+3);
+sector(left,top,90,270,radx,rady);
+bar(left-65,top-3,left-62,top-8);
+
+}
