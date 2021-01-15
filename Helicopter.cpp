@@ -51,3 +51,18 @@ void d_score(long sc)
 
 	 setcolor(BLACK);
 }
+
+void draw_heli()
+{
+setcolor(BLACK);
+setfillstyle(LINE_FILL,CYAN);
+fillellipse(left,top-rady,radx+10,rady-5); //top fan
+setfillstyle(SOLID_FILL,CYAN);
+fillellipse(left-63,top-9,10,4);     //small fan
+fillellipse(left,top,radx,rady);
+setfillstyle(SOLID_FILL,WHITE);
+bar(left,top-3,left-65,top+3);
+sector(left,top,90,270,radx,rady);
+bar(left-65,top-3,left-62,top-8);
+
+}
