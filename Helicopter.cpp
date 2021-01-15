@@ -78,3 +78,12 @@ bar(left,top-3,left-65,top+3);
 sector(left,top,90,270,radx,rady);
 bar(left-65,top+3,left-62,top+8);
 delay(20);
+setfillstyle(SOLID_FILL,BLACK);
+fillellipse(left,top+rady,radx+10,rady-5); //top fan
+fillellipse(left-63,top+9,10,4);     //small fan
+fillellipse(left,top,radx,rady);
+bar(left,top-3,left-65,top+3);
+sector(left,top,90,270,radx,rady);
+bar(left-65,top+3,left-62,top+8);
+
+setcolor(BLACK);
