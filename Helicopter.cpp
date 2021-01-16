@@ -132,3 +132,13 @@ bar(px-55,py+380,px+35,py+400);
 
 
 }
+void draw_wall(int px,int py)
+{
+   setfillstyle(INTERLEAVE_FILL,BROWN);
+   bar(0,0,getmaxx(),15);
+   bar(0,getmaxy()-55,getmaxx(),getmaxy()-50);
+   bar(px,py+250,px+40,py+250+ran);
+   bar(px-50,py+350,px-20,py+350+ran);
+   chk_pipe();
+   d_score(++score);
+}
