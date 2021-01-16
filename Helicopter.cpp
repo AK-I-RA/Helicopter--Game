@@ -108,3 +108,10 @@ setfillstyle(1,GREEN);
 //up pipes
 bar(px,py,px+60,py+200);
 bar(px-15,py+200,px+75,py+220);
+
+bar(px-40,py+400,px+20,getmaxy()-50);
+bar(px-55,py+380,px+35,py+400);
+chk_pipe();
+
+d_score(++score);
+}
