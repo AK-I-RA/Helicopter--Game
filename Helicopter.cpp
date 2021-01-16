@@ -101,3 +101,10 @@ sector(left,top,90,270,radx,rady);
 bar(left-65,top-3,left-62,top-8);
 
 }
+
+void drawpipe(int px,int py)
+{
+setfillstyle(1,GREEN);
+//up pipes
+bar(px,py,px+60,py+200);
+bar(px-15,py+200,px+75,py+220);
