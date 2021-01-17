@@ -231,3 +231,23 @@ randomize();
 ran=random(80);
 
 py1=random(-200);
+
+A:
+py2=random(-200);
+if( abs(py1-py2)>100 )
+goto A;
+
+B:
+py3=random(-200);
+if(abs(py2-py3)>100)
+goto B;
+
+
+C:
+py4=random(-200);
+if(abs(py3-py4)>100)
+goto C;
+
+
+
+}
