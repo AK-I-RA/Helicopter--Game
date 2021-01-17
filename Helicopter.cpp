@@ -142,3 +142,12 @@ void draw_wall(int px,int py)
    chk_pipe();
    d_score(++score);
 }
+void rem_wall(int px,int py)
+{
+   setfillstyle(SOLID_FILL,BLACK);
+   bar(px,py+250,px+40,py+250+ran);
+   bar(px-50,py+350,px-20,py+350+ran);
+
+   //bar(px,py+300,px+30,py+ran);
+   //bar(px-30,py+400,px,getmaxy()-ran) ;
+}
