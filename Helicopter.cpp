@@ -185,3 +185,15 @@ bar(px-40,py+450,px+20,getmaxy()-50);
 bar(px-55,py+430,px+35,py+450);
 
 }
+
+
+
+
+void ball(int px,int py)
+{
+  setfillstyle(SOLID_FILL,RED);
+// fillellipse(px,0,abs(py),ran);
+//	 fillellipse(px+ran,0,abs(py),ran);
+
+  sector(px,0,180,360,75,(py+250)/2);
+ sector(px,getmaxy()-50,0,180,75,(py+200)/2);
