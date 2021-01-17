@@ -169,3 +169,19 @@ chk_pipe();
 
 d_score(++score);
 }
+
+
+void dance_remove(int px,int py)
+{
+
+setfillstyle(1,BLACK);
+//up pipes
+bar(px,py,px+60,py+100);
+bar(px-15,py+100,px+75,py+120);
+
+///down pipes
+
+bar(px-40,py+450,px+20,getmaxy()-50);
+bar(px-55,py+430,px+35,py+450);
+
+}
