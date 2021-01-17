@@ -197,3 +197,11 @@ void ball(int px,int py)
 
   sector(px,0,180,360,75,(py+250)/2);
  sector(px,getmaxy()-50,0,180,75,(py+200)/2);
+
+
+   setfillstyle(5,RED);
+ fillellipse(px,py+ran+250,30,30) ;
+
+  chk_pipe();
+   d_score(++score);
+}
