@@ -205,3 +205,29 @@ void ball(int px,int py)
   chk_pipe();
    d_score(++score);
 }
+
+void rem_ball(int px,int py)
+{
+  setfillstyle(SOLID_FILL,BLACK);
+
+ // fillellipse(px,0,abs(py),ran);
+// fillellipse(px+ran,0,abs(py),ran);
+
+  sector(px,0,180,360,75,(py+250)/2);
+  sector(px,getmaxy()-50,0,180,75,(py+200)/2);
+  fillellipse(px,py+ran+250,30,30) ;
+
+}
+
+
+
+void bkg()
+{
+setcolor(BLACK);
+
+randomize();
+
+
+ran=random(80);
+
+py1=random(-200);
