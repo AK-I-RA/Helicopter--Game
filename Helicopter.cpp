@@ -251,3 +251,18 @@ goto C;
 
 
 }
+
+void bk_m(int level)
+{
+ switch(level)
+ {
+ case 1:drawpipe(px,py1);
+	drawpipe(px+160,py2);
+	drawpipe(px+320,py3);
+	drawpipe(px+480,py4);
+	delay(1);
+	removepipe(px,py1);
+	removepipe(px+160,py2);
+	removepipe(px+320,py3);
+	removepipe(px+480,py4);
+	break;
