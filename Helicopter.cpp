@@ -323,3 +323,17 @@ case 2:
 
  // }
 }
+
+void chk_pipe()
+{
+   int yt=top-(rady-5),yb=top+rady+5;
+   int clash=0;
+
+  for(int x=left-66;x<=(left+radx+10);x++) //chk for up obstacle
+  {
+    if(getpixel(x,yt-1)==(GREEN) || getpixel(x,yb+1)==(GREEN ) ||getpixel(x,yt-1)==BROWN || getpixel(x,yb+1)==BROWN || (yt-1)<0 || (yb+1) >getmaxy() || getpixel(x,yt-1)==RED || getpixel(x,yb+1)==RED )
+      {
+       clash=1;
+       rem_heli();
+       }
+  }
