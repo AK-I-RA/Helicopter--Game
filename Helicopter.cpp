@@ -349,3 +349,22 @@ void chk_pipe()
     ulta_heli();
     top=top+10;
    }
+
+      cleardevice();
+      start(390);
+      setfillstyle(SOLID_FILL,BLACK);
+      bar(61,getmaxy()-394,539,getmaxy()-291);
+      settextstyle(10,0,5);
+      setcolor(WHITE);
+      outtextxy(90,getmaxy()-390,"GAME OVER");
+      settextstyle(3,0,4);
+      setcolor(LIGHTRED) ;
+      outtextxy(150,getmaxy()-206,"SCORE :");
+      gotoxy(40,19);
+      cout<<score;
+      getch();
+      main();
+   }
+
+
+}
