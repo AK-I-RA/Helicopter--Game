@@ -308,3 +308,18 @@ case 2:
 	rem_ball(px+450,py4);
 	 break;
  }
+
+ px=px-10;
+ if(j==120 )
+ {
+ px=getmaxx();
+ bkg();
+ j=1;
+ }
+ //if(level==3)
+ //{
+
+ // bkg();
+
+ // }
+}
