@@ -337,3 +337,15 @@ void chk_pipe()
        rem_heli();
        }
   }
+    if(getpixel(x,yb)==(GREEN) || getpixel(x,yt)==(GREEN)|| getpixel(x,yb)==BROWN || getpixel(x,yt)==BROWN||getpixel(x,yb)==(RED) || getpixel(x,yt)==(RED))     //chk for front obstacle
+   {
+     clash=1;
+     rem_heli();
+   }
+   if(clash==1)
+   {
+   while(top<=getmaxy())
+   {
+    ulta_heli();
+    top=top+10;
+   }
