@@ -266,3 +266,18 @@ void bk_m(int level)
 	removepipe(px+320,py3);
 	removepipe(px+480,py4);
 	break;
+  
+case 2:
+	draw_wall(px,py1);
+	draw_wall(px+160,py2);
+	draw_wall(px+320,py3);
+	draw_wall(px+480,py4);
+	delay(5);
+	rem_wall(px,py1);
+	rem_wall(px+160,py2);
+	rem_wall(px+320,py3);
+	rem_wall(px+480,py4);
+
+
+	 break;
+
