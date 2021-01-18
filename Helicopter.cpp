@@ -297,3 +297,14 @@ case 2:
 	break;
 
 
+ case 4:ball(px,py1);
+	ball(px+150,py2);
+	ball(px+300,py3);
+	ball(px+450,py4);
+	delay(1);
+	rem_ball(px,py1);
+	rem_ball(px+150,py2);
+	rem_ball(px+300,py3);
+	rem_ball(px+450,py4);
+	 break;
+ }
