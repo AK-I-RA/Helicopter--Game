@@ -281,3 +281,19 @@ case 2:
 
 	 break;
 
+
+ case 3:
+	dance_pipe(px,py1);
+	dance_pipe(px+160,py2);
+	dance_pipe(px+320,py3);
+	dance_pipe(px+480,py4);
+	delay(1);
+	dance_remove(px,py1);
+	dance_remove(px+160,py2);
+	dance_remove(px+320,py3);
+	dance_remove(px+480,py4);
+	bkg();
+
+	break;
+
+
