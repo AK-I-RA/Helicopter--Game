@@ -371,3 +371,7 @@ void chk_pipe()
 
 void downheli()
 {
+rem_heli();
+top=top+5;
+draw_heli();
+}
