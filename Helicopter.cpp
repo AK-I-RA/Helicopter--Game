@@ -392,3 +392,9 @@ int main_menu ()
 int ch;
 int selected = 1;
 int TotalOptions = 4;
+
+cleardevice();
+setbkcolor ( BLACK );
+drawMenu ( selected , WHITE , RED );
+do
+{
