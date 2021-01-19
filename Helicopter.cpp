@@ -375,3 +375,10 @@ rem_heli();
 top=top+5;
 draw_heli();
 }
+
+void upheli()
+{
+rem_heli();
+top=top-35;
+draw_heli();
+}
