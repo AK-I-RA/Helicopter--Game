@@ -382,3 +382,13 @@ rem_heli();
 top=top-35;
 draw_heli();
 }
+
+
+
+
+
+int main_menu ()
+{
+int ch;
+int selected = 1;
+int TotalOptions = 4;
