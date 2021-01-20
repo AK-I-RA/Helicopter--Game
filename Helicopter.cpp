@@ -403,3 +403,9 @@ if ( ch == 80 )
 {
 selected = selected >= TotalOptions ? 1 : selected + 1;
 drawMenu ( selected , WHITE , RED );
+}
+else if ( ch == 72 )
+{
+selected = selected < 2 ? TotalOptions : selected - 1;
+drawMenu ( selected , WHITE , RED );
+}
