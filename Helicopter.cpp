@@ -409,3 +409,8 @@ else if ( ch == 72 )
 selected = selected < 2 ? TotalOptions : selected - 1;
 drawMenu ( selected , WHITE , RED );
 }
+}
+while ( ch != 13 );
+
+return selected;
+}
