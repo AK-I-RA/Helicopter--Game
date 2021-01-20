@@ -430,3 +430,10 @@ char menu_option[4][14]= {
 			  " ABOUT ",
 			  " EXIT     "
 			 };
+
+cleardevice();
+
+start(390);
+
+
+
