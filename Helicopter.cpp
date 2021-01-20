@@ -398,3 +398,8 @@ setbkcolor ( BLACK );
 drawMenu ( selected , WHITE , RED );
 do
 {
+ch = getch();
+if ( ch == 80 )
+{
+selected = selected >= TotalOptions ? 1 : selected + 1;
+drawMenu ( selected , WHITE , RED );
