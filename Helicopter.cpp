@@ -414,3 +414,19 @@ while ( ch != 13 );
 
 return selected;
 }
+
+void drawMenu ( int selected , int defCol , int selCol )
+{
+
+int x = 220;
+int y = 250;
+
+int h = 30;
+int i;
+int TotalOptions = 4;
+char menu_option[4][14]= {
+			  " PLAY     ",
+			  " LEVELS ",
+			  " ABOUT ",
+			  " EXIT     "
+			 };
