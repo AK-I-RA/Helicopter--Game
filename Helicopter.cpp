@@ -446,3 +446,12 @@ if ( i == selected )
 
 setcolor (  selCol );
 setfillstyle(INTERLEAVE_FILL,selCol);
+
+}
+else
+{
+setfillstyle(SOLID_FILL,0);
+bar(x,y,x+15,y+40);
+setcolor ( defCol );
+setfillstyle(EMPTY_FILL,defCol);
+}
