@@ -437,3 +437,12 @@ start(390);
 
 
 
+setlinestyle(0,0,1);
+
+for ( i = 1; i <= TotalOptions; i++ )
+{
+if ( i == selected )
+{
+
+setcolor (  selCol );
+setfillstyle(INTERLEAVE_FILL,selCol);
