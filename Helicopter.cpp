@@ -455,3 +455,10 @@ bar(x,y,x+15,y+40);
 setcolor ( defCol );
 setfillstyle(EMPTY_FILL,defCol);
 }
+
+fillellipse(x+7,y+25,7,7);
+settextstyle(3,0,3);
+outtextxy ( x + 20 , y + 10 , menu_option[i - 1] );
+y = y + h + 15;
+
+delay(20);
