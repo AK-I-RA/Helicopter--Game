@@ -484,3 +484,10 @@ rectangle(237,getmaxy()-i+7,303,getmaxy()-i+73);
 setfillstyle(SOLID_FILL,RED);
 bar(60,getmaxy()-i-25,70,getmaxy()-i-45);
 bar(540,getmaxy()-i-25,530,getmaxy()-i-45);
+
+
+top=getmaxy()-i-55;
+left=65;
+draw_heli();
+left=535;
+draw_heli();
