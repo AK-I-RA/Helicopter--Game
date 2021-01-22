@@ -501,3 +501,27 @@ rectangle(60,getmaxy()-i-5,540,getmaxy()-i+100);
   delay(20);
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void level_page()
+{
+int lx,ly;
+lx=150;
+ly=150;
+level_draw(lx,ly);
+char ch;
+again:
+ch=getch();
