@@ -462,3 +462,17 @@ outtextxy ( x + 20 , y + 10 , menu_option[i - 1] );
 y = y + h + 15;
 
 delay(20);
+
+
+}
+}
+
+
+void start(int i)
+{
+setcolor(WHITE);
+setlinestyle(0,0,1);
+settextstyle(10,0,5);
+outtextxy(80,getmaxy()-i,"HELI");
+outtextxy(330,getmaxy()-i,"OPTER");
+settextstyle(3,0,4);
