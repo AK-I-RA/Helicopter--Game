@@ -480,3 +480,7 @@ outtextxy(280,getmaxy()-i+30,"Z");
 setcolor(WHITE);
 rectangle(230,getmaxy()-i,310,getmaxy()-i+80);
 rectangle(237,getmaxy()-i+7,303,getmaxy()-i+73);
+
+setfillstyle(SOLID_FILL,RED);
+bar(60,getmaxy()-i-25,70,getmaxy()-i-45);
+bar(540,getmaxy()-i-25,530,getmaxy()-i-45);
