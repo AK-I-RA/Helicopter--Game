@@ -476,3 +476,7 @@ settextstyle(10,0,5);
 outtextxy(80,getmaxy()-i,"HELI");
 outtextxy(330,getmaxy()-i,"OPTER");
 settextstyle(3,0,4);
+outtextxy(280,getmaxy()-i+30,"Z");
+setcolor(WHITE);
+rectangle(230,getmaxy()-i,310,getmaxy()-i+80);
+rectangle(237,getmaxy()-i+7,303,getmaxy()-i+73);
