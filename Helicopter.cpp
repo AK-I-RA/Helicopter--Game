@@ -533,3 +533,10 @@ if(ch==77)
 if(level==4)
 goto again;
 ++level;
+//if(level>4)
+//level=1;
+lx=lx-325;
+level_draw(lx,ly);
+}
+else if(ch==75)
+{
