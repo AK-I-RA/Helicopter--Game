@@ -491,3 +491,13 @@ left=65;
 draw_heli();
 left=535;
 draw_heli();
+
+
+setcolor(RED);
+rectangle(50,getmaxy()-i-25,550,getmaxy()-i+115);
+setlinestyle(3,0,2);
+rectangle(60,getmaxy()-i-5,540,getmaxy()-i+100);
+
+  delay(20);
+
+}
