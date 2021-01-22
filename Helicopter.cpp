@@ -525,3 +525,11 @@ level_draw(lx,ly);
 char ch;
 again:
 ch=getch();
+
+while(ch!=13)
+{
+if(ch==77)
+{
+if(level==4)
+goto again;
+++level;
