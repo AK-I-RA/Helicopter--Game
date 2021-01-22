@@ -548,3 +548,8 @@ goto again;
 lx=lx+325;
 level_draw(lx,ly);
 }
+
+ch=getch();
+}
+
+}
