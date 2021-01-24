@@ -584,3 +584,7 @@ switch(level)
 case 1: bar(lx,ly,lx+300,ly+260);
 	bar(getmaxx()/2-50,getmaxy()-50,getmaxx()/2-40,getmaxy()-40);
 	break;
+case 2:
+	bar(lx+350,ly,lx+650,ly+260);
+	bar(getmaxx()/2-20,getmaxy()-50,getmaxx()/2-10,getmaxy()-40);
+	break;
