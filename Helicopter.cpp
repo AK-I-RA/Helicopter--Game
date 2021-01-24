@@ -588,3 +588,8 @@ case 2:
 	bar(lx+350,ly,lx+650,ly+260);
 	bar(getmaxx()/2-20,getmaxy()-50,getmaxx()/2-10,getmaxy()-40);
 	break;
+case 3:
+	 bar(lx+700,ly,lx+1000,ly+260);
+	bar(getmaxx()/2+10,getmaxy()-50,getmaxx()/2+20,getmaxy()-40);
+
+	break;
