@@ -553,3 +553,19 @@ ch=getch();
 }
 
 }
+
+
+
+
+//////////////////////////////////////////////////////////////////
+
+void level_draw(int lx,int ly)
+{
+cleardevice();
+setfillstyle(SOLID_FILL,LIGHTRED);
+
+//main boxes
+bar(lx,ly,lx+300,ly+260);
+bar(lx+350,ly,lx+650,ly+260);
+bar(lx+700,ly,lx+1000,ly+260);
+bar(lx+1050,ly,lx+1350,ly+260);
