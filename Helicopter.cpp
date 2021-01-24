@@ -593,3 +593,9 @@ case 3:
 	bar(getmaxx()/2+10,getmaxy()-50,getmaxx()/2+20,getmaxy()-40);
 
 	break;
+case 4:
+	bar(lx+1050,ly,lx+1350,ly+260);
+	bar(getmaxx()/2+40,getmaxy()-50,getmaxx()/2+50,getmaxy()-40);
+
+
+	break;
