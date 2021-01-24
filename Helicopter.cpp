@@ -577,3 +577,10 @@ bar(getmaxx()/2-20,getmaxy()-50,getmaxx()/2-10,getmaxy()-40);
 bar(getmaxx()/2+10,getmaxy()-50,getmaxx()/2+20,getmaxy()-40);
 bar(getmaxx()/2+40,getmaxy()-50,getmaxx()/2+50,getmaxy()-40);
 setfillstyle(SOLID_FILL,GREEN);
+
+
+switch(level)
+{
+case 1: bar(lx,ly,lx+300,ly+260);
+	bar(getmaxx()/2-50,getmaxy()-50,getmaxx()/2-40,getmaxy()-40);
+	break;
