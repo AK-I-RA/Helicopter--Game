@@ -599,3 +599,5 @@ case 4:
 
 
 	break;
+default : cout<<"\n\nThere is some error in the game....CONTACT DEVELOPERS (Karan Khanna and Ayushi Jain)";
+}
