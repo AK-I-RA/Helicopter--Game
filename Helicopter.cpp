@@ -648,3 +648,9 @@ outtextxy(lx+745,ly+110,"DANCING PIPES");
 
 
 outtextxy(lx+1120,ly+110,"ROUND HILLS");
+
+
+settextstyle(9,0,4);
+outtextxy(100,50,"SELECT LEVEL");
+settextstyle(6,0,1);
+outtextxy(470,85,"and press enter..");
