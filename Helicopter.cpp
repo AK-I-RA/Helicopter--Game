@@ -601,3 +601,18 @@ case 4:
 	break;
 default : cout<<"\n\nThere is some error in the game....CONTACT DEVELOPERS (Karan Khanna and Ayushi Jain)";
 }
+
+
+
+
+//setcolor(BLACK);
+setfillstyle(1,LIGHTGRAY);
+bar(lx+60,ly,lx+80,ly+100);
+bar(lx+140,ly,lx+160,ly+100);
+bar(lx+230,ly,lx+250,ly+100);
+bar(lx+30,ly+160,lx+50,ly+260);
+bar(lx+110,ly+160,lx+130,ly+260);
+bar(lx+260,ly+160,lx+280,ly+260);
+setcolor(WHITE);
+settextstyle(10,0,1);
+outtextxy(lx+115,ly+110,"PIPES");
