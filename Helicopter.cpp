@@ -616,3 +616,7 @@ bar(lx+260,ly+160,lx+280,ly+260);
 setcolor(WHITE);
 settextstyle(10,0,1);
 outtextxy(lx+115,ly+110,"PIPES");
+
+outtextxy(lx+460,ly+20,"BRICKS");
+
+setfillstyle(LINE_FILL,RED);
