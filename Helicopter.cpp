@@ -620,3 +620,10 @@ outtextxy(lx+115,ly+110,"PIPES");
 outtextxy(lx+460,ly+20,"BRICKS");
 
 setfillstyle(LINE_FILL,RED);
+bar(lx+400,ly+80,lx+430,ly+110);
+bar(lx+500,ly+120,lx+530,ly+150);
+bar(lx+600,ly+130,lx+630,ly+160);
+bar(lx+450,ly+200,lx+480,ly+230);
+bar(lx+580,ly+70,lx+610,ly+100);
+bar(lx+550,ly+220,lx+580,ly+250);
+bar(lx+390,ly+170,lx+420,ly+200);
