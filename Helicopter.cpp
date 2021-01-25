@@ -641,3 +641,10 @@ bar(lx+940,ly+190,lx+960,ly+260);
 setcolor(WHITE);
 settextstyle(10,0,1);
 outtextxy(lx+745,ly+110,"DANCING PIPES");
+
+
+
+
+
+
+outtextxy(lx+1120,ly+110,"ROUND HILLS");
