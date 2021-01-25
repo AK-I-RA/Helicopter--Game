@@ -627,3 +627,10 @@ bar(lx+450,ly+200,lx+480,ly+230);
 bar(lx+580,ly+70,lx+610,ly+100);
 bar(lx+550,ly+220,lx+580,ly+250);
 bar(lx+390,ly+170,lx+420,ly+200);
+
+
+setfillstyle(1,LIGHTGRAY);
+bar(lx+750,ly,lx+770,ly+100);
+bar(lx+800,ly,lx+820,ly+50);
+bar(lx+880,ly,lx+900,ly+80);
+bar(lx+950,ly,lx+970,ly+90);
