@@ -726,3 +726,8 @@ for(int i=0;i<400;i=i+10)
   cleardevice();
   start(i);
 }
+
+left=200;
+
+a:
+
