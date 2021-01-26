@@ -731,3 +731,7 @@ left=200;
 
 a:
 
+int selected =main_menu();
+
+switch(selected)
+{
