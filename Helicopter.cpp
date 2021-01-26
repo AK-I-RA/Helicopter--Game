@@ -673,3 +673,8 @@ bkg();
 A:
 
 
+while(!kbhit())
+{
+bk_m(level);
+downheli();
+
