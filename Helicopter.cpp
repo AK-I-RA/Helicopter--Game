@@ -656,3 +656,20 @@ settextstyle(6,0,1);
 outtextxy(470,85,"and press enter..");
 
 }
+
+
+
+
+
+
+
+void play()
+{
+top=200;
+left=200;
+cleardevice();
+px=getmaxx();
+bkg();
+A:
+
+
