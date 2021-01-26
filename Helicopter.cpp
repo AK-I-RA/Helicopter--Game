@@ -720,3 +720,9 @@ char ch;
 int gm,gd=DETECT;
 initgraph(&gd,&gm,"c:\\turboc3\\bgi");
 cleardevice();
+
+for(int i=0;i<400;i=i+10)
+{
+  cleardevice();
+  start(i);
+}
