@@ -698,3 +698,25 @@ goto A;
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void main()
+{
+char ch;
+int gm,gd=DETECT;
+initgraph(&gd,&gm,"c:\\turboc3\\bgi");
+cleardevice();
