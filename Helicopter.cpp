@@ -678,3 +678,7 @@ while(!kbhit())
 bk_m(level);
 downheli();
 
+ch='/0';
+++j;
+}
+
