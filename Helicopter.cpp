@@ -685,3 +685,7 @@ ch='/0';
 if(kbhit())
 {
 
+ch=getch();
+if(ch=='z')
+{
+
