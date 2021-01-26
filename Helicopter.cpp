@@ -688,4 +688,10 @@ if(kbhit())
 ch=getch();
 if(ch=='z')
 {
+	bk_m(level);
+upheli();
+++j;
+goto A;
+}
+}
 
