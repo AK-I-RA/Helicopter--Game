@@ -743,3 +743,13 @@ switch(selected)
 	  level_page();
 	  goto a;
 	  break;
+	  
+ case 3 : cleardevice();
+	  start(390);
+	  bar(0,getmaxy()-50,getmaxx(),getmaxy());
+	  settextstyle(7,0,5);
+	  outtextxy(220,getmaxy()-50,"ABOUT");
+	  setcolor(WHITE);
+	  settextstyle(7,0,3);
+
+	  outtextxy(80,getmaxy()/2,"KARAN KHANNA");
