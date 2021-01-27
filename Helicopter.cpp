@@ -743,7 +743,7 @@ switch(selected)
 	  level_page();
 	  goto a;
 	  break;
-	  
+
  case 3 : cleardevice();
 	  start(390);
 	  bar(0,getmaxy()-50,getmaxx(),getmaxy());
@@ -752,4 +752,11 @@ switch(selected)
 	  setcolor(WHITE);
 	  settextstyle(7,0,3);
 
-	  outtextxy(80,getmaxy()/2,"KARAN KHANNA");
+	  outtextxy(80,getmaxy()/2,"ANKIT RAWAT");
+
+	  outtextxy(300,getmaxy()/2+40,"&");
+	  outtextxy(350,getmaxy()/2+70,"RITIK RAWAT");
+	  settextstyle(2,0,5);
+	  setcolor(RED);
+	  outtextxy(360,390,"Press any key to continue.....");
+
