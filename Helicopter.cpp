@@ -762,4 +762,14 @@ switch(selected)
 
 	  getch();
 	  goto a;
+	  
+ case 4:
+	 cleardevice();
+
+	 gotoxy(25,15);
+	 cout<<" HOPE YOU ENJOYED.... :-) ";
+	 delay(1000);
+	 closegraph();
+	 exit(0);
+	 break;
 
