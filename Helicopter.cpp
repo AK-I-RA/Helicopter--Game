@@ -777,3 +777,10 @@ switch(selected)
 	 break;
 }
 
+
+
+getch();
+cleardevice();
+closegraph();
+}
+
