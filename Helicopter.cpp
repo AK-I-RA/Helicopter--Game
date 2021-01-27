@@ -760,3 +760,6 @@ switch(selected)
 	  setcolor(RED);
 	  outtextxy(360,390,"Press any key to continue.....");
 
+	  getch();
+	  goto a;
+
