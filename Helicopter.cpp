@@ -739,3 +739,7 @@ switch(selected)
 	  play();
 	  goto a;
 	  break;
+ case 2:  cleardevice();
+	  level_page();
+	  goto a;
+	  break;
