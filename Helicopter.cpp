@@ -762,7 +762,7 @@ switch(selected)
 
 	  getch();
 	  goto a;
-	  
+
  case 4:
 	 cleardevice();
 
@@ -772,4 +772,8 @@ switch(selected)
 	 closegraph();
 	 exit(0);
 	 break;
+	 
+ default:goto a;
+	 break;
+}
 
