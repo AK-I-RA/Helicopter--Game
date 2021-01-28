@@ -735,3 +735,7 @@ int selected =main_menu();
 
 switch(selected)
 {
+ case 1:  cleardevice();
+	  play();
+	  goto a;
+	  break;
