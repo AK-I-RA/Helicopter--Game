@@ -32,7 +32,6 @@ void level_page();
 void level_draw(int lx,int ly);
 
 
-
 int level=1;
 
 void d_score(long sc)
@@ -384,9 +383,6 @@ draw_heli();
 }
 
 
-
-
-
 int main_menu ()
 {
 int ch;
@@ -603,8 +599,6 @@ default : cout<<"\n\nThere is some error in the game....CONTACT DEVELOPERS (Kara
 }
 
 
-
-
 //setcolor(BLACK);
 setfillstyle(1,LIGHTGRAY);
 bar(lx+60,ly,lx+80,ly+100);
@@ -659,10 +653,6 @@ outtextxy(470,85,"and press enter..");
 
 
 
-
-
-
-
 void play()
 {
 top=200;
@@ -698,17 +688,6 @@ goto A;
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
